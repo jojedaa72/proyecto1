@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi primera Página Web</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        background-color: blue;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
+    }
+
+    header ul{  
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    header li{
+
+
+    }
+
+    header a{
+        font-size: 24px;
+    }
+
+    /* HEADER*/
+    header .logo{
+        color:cornsilk;
+    }
+    /* MAIN */
+    main{
+        background-color:darkgreen;
+    }
+    main h2{
+        color: darkmagenta;
+    }
+    footer{
+        background-color: darkslateblue;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- Header -->
+      <header>
+        <a class="logo" href="./">LOGO</a>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Quienes Somos</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Main -->
+      <main>
+        <!-- Seccion Inicion -->
+        <section>
+          <h2>Inicio</h2>
+          <hr />
+          <P
+            >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
+            recusandae praesentium voluptas non exercitationem, illo facere.
+            Maxime ratione reprehenderit eum nisi veniam, quibusdam
+            exercitationem praesentium, adipisci id ad, consequatur
+            laudantium.</P
+          >
+          <figure>
+            <img src="/images/descarga.jpg" alt="Incio" />
+          </figure>
+        </section>
+        <!-- Seccion Quines Somos -->
+        <section>
+          <h2>Quines Somos</h2>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et ea
+            officiis, aspernatur voluptatum soluta fugiat rerum saepe laboriosam
+            beatae modi! Quae distinctio nam quo, reiciendis nemo optio minima?
+            Eum, magni.
+          </p>
+          <figure>
+            <img src="/images/descarga1.jpg" alt="Quienes Somos" />
+          </figure>
+        </section>
+        <!-- Seccion Portafolio -->
+        <section>
+          <h2>Portafolio</h2>
+          <hr />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            accusamus commodi sequi mollitia eligendi accusantium, asperiores
+            officia nihil, rerum temporibus dolore, reprehenderit eaque
+            laudantium non facilis quibusdam eius ex incidunt.
+          </p>
+          <figure>
+            <img src="/images/servicio1.jpg" width="80" alt="Servcio1" />
+            <figcaption>Diseño Web</figcaption>
+          </figure>
+          <figure>
+            <img src="/images/servicio2.jpg" width="80" alt="Servicio2" />
+            <figcaption>Desarrollo Web</figcaption>
+          </figure>
+          <figure>
+            <img src="/images/servicio3.jpg" width="80" alt="Servicio3" />
+            <figcaption>Desarrollo mobile</figcaption>
+          </figure>
+          <figure>
+            <img src="/images/servicio4.jpg" width="80" alt="Servicio4" />
+            <figcaption>Diseño UI</figcaption>
+          </figure>
+                    <figure>
+            <img src="/images/servicio4.jpg" width="80" alt="Servicio4" />
+            <figcaption>Diseño UX</figcaption>
+          </figure>
+                    <figure>
+            <img src="/images/servicio4.jpg" width="80" alt="Servicio4" />
+            <figcaption>Metodologias Agiles</figcaption>
+          </figure>
+        </section>
+        <!-- Contacto -->
+        <section>
+            <h2>Contacto</h2>
+            <hr>
+            <form action="">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido">
+            <input type="text" placeholder="Telefono">
+            <input type="text" placeholder="Email">
+            <textarea name="" id="" cols="97" rows="10" placeholder="Descripción"></textarea>
+            <button>Enviar</button>
+        </form>
+        </section>
+      </main>
+      <!-- Footer-->
+      <footer>
+          <p>Todos los derechos Reservados</p>
+      </footer>
+    </div>
+  </body>
+</html>
