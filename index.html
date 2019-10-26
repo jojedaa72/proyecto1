@@ -27,32 +27,7 @@
     programa codiGO" />
   <meta name="twitter:image" content="https://jojedaa72.github.io/proyecto1/images/codigo.png" />
   <style>
-    <script>window.twttr=(function(d, s, id) {
-
-        var js, fjs=d.getElementsByTagName(s)[0],
-        t=window.twttr || {}
-
-        ;
-        if (d.getElementById(id)) return t;
-        js=d.createElement(s);
-        js.id=id;
-        js.src="https://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js, fjs);
-
-        t._e=[];
-
-        t.ready=function(f) {
-          t._e.push(f);
-        }
-
-        ;
-
-        return t;
-      }
-
-      (document, "script", "twitter-wjs"));
-
-    </script>figure h1 {
+    figure h1 {
       position: absolute;
     }
 
@@ -80,6 +55,33 @@
       color: red;
     }
   </style>
+
+  <script>window.twttr = (function (d, s, id) {
+
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+
+        ;
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+
+      t.ready = function (f) {
+        t._e.push(f);
+      }
+
+        ;
+
+      return t;
+    }
+
+      (document, "script", "twitter-wjs"));
+
+  </script>
 </head>
 
 <body>
@@ -99,8 +101,7 @@
           </li>
           <li>
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large"
-              data-text="custom share text" data-url="https://dev.twitter.com/web/tweet-button"
-              data-hashtags="example,demo" data-via="twitterdev" data-related="twitterapi,twitter">
+            >
               Tweet
             </a>
           </li>
