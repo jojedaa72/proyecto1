@@ -1,138 +1,189 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <style>
-      figure h1 {
-        position: absolute;
-      }
-      section.skills {
-        background-color: #7299fe;
-      }
-      section.servicio{
-          background-color: #FB7171;
-      }
-      section.portafolio{
-          background-color: #FFD233;
-      }
-      section.clientes{
-          background-color: #3F4E62;
-      }
-      section.contacto{
-          background-color: #16A085;
-      }
-      .banner h1 {
-        color: red;
-      }
-    </style>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Mi primera página</title>
+  <meta name="description" content="Pagina web sobre portafolio de sebastian yabiku, creada en conjunto en el 
+  programa codiGO" />
+  <meta name="keywords" content="web programacion portafolio sebastianyabiku codiGO" />
+
+  <meta property="og:title" itemprop="headline" content="Portfolio - codiGO" />
+  <meta property="og:description" itemprop="description" content="Pagina web sobre portafolio de sebastian yabiku, creada en conjunto en el 
+  programa codiGO" />
+  <meta property="og:image" itemprop="image" content="https://sebastian-yabiku.github.io/proyecto/images/banner.png" />
+  <meta property="og:url" itemprop="url" content="https://sebastian-yabiku.github.io/proyecto/" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@sebastianyabiku" />
+  <meta name="twitter:creator" content="@sebastianyabiku" />
+  <meta name="twitter:title" content="Portfolio - codiGO" />
+  <meta name="twitter:description" content="Pagina web sobre portafolio de sebastian yabiku, creada en conjunto en el 
+    programa codiGO" />
+  <meta name="twitter:image" content="https://sebastian-yabiku.github.io/proyecto/images/banner.png" />
+  <style>
+    figure h1 {
+      position: absolute;
+    }
+
+    section.skills {
+      background-color: #7299fe;
+    }
+
+    section.servicio {
+      background-color: #FB7171;
+    }
+
+    section.portafolio {
+      background-color: #FFD233;
+    }
+
+    section.clientes {
+      background-color: #3F4E62;
+    }
+
+    section.contacto {
+      background-color: #16A085;
+    }
+
+    .banner h1 {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
   <div>
-    <body>
-      <main>
-        <!--SECCIÓN DEL LOGO DE LA PÁGINA -->
-        <section class="banner">
-            <h1>Codigo</h1>
-            <h2>Hola, mi nombre es José Ojeda</h2>
-            <figure>
-            <img src="/images/image.png" alt="" />
-          </figure>
-        </section>
-        <!--SECCIÓN DEL My Skills -->
-        <section class="skills">
-          <h2>My Skills</h2>
+    <main>
+      <!--SECCIÓN DEL LOGO DE LA PÁGINA -->
+      <section class="banner">
+        <h1>Codigo</h1>
+        <h2>Hola, mi nombre es José Ojeda</h2>
+        <figure>
+          <img src="/images/image.png" alt="" />
+        </figure>
+      </section>
+      <!--SECCIÓN DEL My Skills -->
+      <section class="skills">
+        <h2>My Skills</h2>
+        <div>
           <div>
-            <div>
-              <label for="">Html</label>
-              <div></div>
-            </div>
-            <div>
-              <label for="">Css</label>
-              <div></div>
-            </div>
-            <div>
-              <label for="">Angular</label>
-              <div></div>
-            </div>
-            <div>
-              <label for="">Figma</label>
-              <div></div>
-            </div>
+            <h3>Html</h3>
+            <div></div>
+            <div></div>
           </div>
           <div>
-            <div>
-              <label for="">Javascript</label>
-              <div></div>
-            </div>
-            <div>
-              <label for="">React</label>
-              <div></div>
-            </div>
-            <label>
-              <label for="">Python</label>
-              <div></div>
+            <h3>Css</h3>
+            <div></div>
+            <div></div>
+          </div>
+          <div>
+            <h3>Angular</h3>
+            <div></div>
+            <div></div>
+          </div>
+          <div>
+            <h3>Figma</h3>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h3>Javascript</h3>
+            <div></div>
+            <div></div>
+          </div>
+          <div>
+            <h3>React</h3>
+            <div></div>
+            <div></div>
+          </div>
+          <h3>
+            <h3>Python</h3>
+            <div></div>
+            <div></div>
             </label>
             <div>
-              <label for="">Node.js</label>
+              <h3>Node.js</h3>
+              <div></div>
               <div></div>
             </div>
-          </label>
-        </section>
-        <!--SECCIÓN DE LOS SERVICIOS -->
-        <section class="servicio">
-          <h2>Servicios</h2>
-          <figure>
-            <img src="/images/Vector.png" alt="Diseño Web" />
-            <figcaption>Diseño Web</figcaption>
-            <img src="/images/Vector.png" alt="Desarrollo Web" />
-            <figcaption>Desarrollo Web</figcaption>
-            <img src="/images/Vector.png" alt="Desarrollo mobile" />
-            <figcaption>Desarrollo mobile</figcaption>
-            <img src="/images/Vector.png" alt="Diseño UI" />
-            <figcaption>Diseño UI</figcaption>
-            <img src="/images/Vector.png" alt="Diseño UX" />
-            <figcaption>Diseño UX</figcaption>
-            <img src="/images/Vector.png" alt="Metodologias Agiles" />
-            <figcaption>Metodologias Agiles</figcaption>
-          </figure>
-        </section>
-        <!--SECCIÓN DEL PORTAFOLIO -->
-        <section class="portafolio">
-          <h2>Portafolio</h2>
-          <figure>
-            <img src="/images/image (9).png" alt="" />
-            <img src="/images/image (10).png" alt="" />
-            <img src="/images/image (11).png" alt="" />
-            <img src="/images/image (12).png" alt="" />
-            <img src="/images/image (13).png" alt="" />
-            <img src="/images/image (14).png" alt="" />
-          </figure>
-        </section>
-           <!--SECCIÓN DE CLIENTES -->
-        <section class="clientes">
-          <h2>Clientes</h2>
-          <figure>
-            <img src="/images/image (15).png" alt="" />
-            <img src="/images/image (16).png" alt="" />
-            <img src="/images/image (17).png" alt="" />
-            <img src="/images/image (18).png" alt="" />
-          </figure>
-        </section>
-        <!--SECCIÓN DEL CONTACTO -->
-        <section class="contacto">
-          <H2>Contacto</H2>
-          <form action="">
-            <input type="text" placeholder="Nombre" />
-            <input type="text" placeholder="Apellidos" />
-            <input type="text" placeholder="Mail" />
-            <input type="text" placeholder="Teléfono" />
-            <textarea name="" placeholder="Ingrese Texto"></textarea>
-            <button>Enviar</button>
-          </form>
-        </section>
-      </main>
-    </body>
+            </label>
+      </section>
+      <!--SECCIÓN DE LOS SERVICIOS -->
+      <section class="servicio">
+        <h2>Servicios</h2>
+        <figure>
+          <img src="/images/Vector.png" alt="Diseño Web" />
+          <figcaption>Diseño Web</figcaption>
+          <img src="/images/Vector.png" alt="Desarrollo Web" />
+          <figcaption>Desarrollo Web</figcaption>
+          <img src="/images/Vector.png" alt="Desarrollo mobile" />
+          <figcaption>Desarrollo mobile</figcaption>
+          <img src="/images/Vector.png" alt="Diseño UI" />
+          <figcaption>Diseño UI</figcaption>
+          <img src="/images/Vector.png" alt="Diseño UX" />
+          <figcaption>Diseño UX</figcaption>
+          <img src="/images/Vector.png" alt="Metodologias Agiles" />
+          <figcaption>Metodologias Agiles</figcaption>
+        </figure>
+      </section>
+      <!--SECCIÓN DEL PORTAFOLIO -->
+      <section class="portafolio">
+        <h2>Portafolio</h2>
+        <figure>
+          <img src="/images/image (9).png" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/image (10).png" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/image (11).png" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/image (12).png" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/image (13).png" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/image (14).png" alt="" />
+        </figure>
+      </section>
+      <!--SECCIÓN DE CLIENTES -->
+      <section class="clientes">
+        <h2>Clientes</h2>
+        <figure>
+          <img src="/images/image (15).png" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/image (16).png" alt="" />
+        </figure>
+        <figure>
+          <img src="/images/image (17).png" alt="" />
+        </figure>
+        <figure><img src="/images/image (18).png" alt="" /></figure>
+
+
+
+      </section>
+      <!--SECCIÓN DEL CONTACTO -->
+      <section class="contacto">
+        <H2>Contacto</H2>
+        <form action="">
+          <input type="text" placeholder="Nombre" />
+          <input type="text" placeholder="Apellidos" />
+          <input type="text" placeholder="Mail" />
+          <input type="text" placeholder="Teléfono" />
+          <textarea name="" placeholder="Ingrese Texto"></textarea>
+          <button>Enviar</button>
+        </form>
+      </section>
+    </main>
   </div>
+</body>
+
 </html>
